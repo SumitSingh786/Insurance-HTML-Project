@@ -84,8 +84,6 @@
 	text-decoration: none;
 }
 .owl-theme .owl-controls.clickable .owl-buttons div.disabled, .owl-theme .owl-controls.clickable .owl-buttons div.disabled:hover{
-	/*filter: Alpha(Opacity=40);/*IE7 fix
-	opacity: 0.4;*/
 	cursor: default;
 }
 
@@ -100,7 +98,7 @@
 .owl-theme .owl-controls .owl-page{
 	display: inline-block;
 	zoom: 1;
-	*display: inline;/*IE7 life-saver */
+	*display: inline;
 }
 .owl-theme .owl-controls .owl-page span{
 	display: block;
@@ -116,7 +114,7 @@
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-	filter: Alpha(Opacity=100);/*IE7 fix*/
+	filter: Alpha(Opacity=100);
 	opacity: 1;
 	background-position:0px 0px;
 }
